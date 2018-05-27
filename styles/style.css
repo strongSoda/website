@@ -162,15 +162,16 @@ Not happening
 }
 
 .navbar {
-    width: 100%;
+    width: 100vw;
     height: 3.25rem;
-    padding: 1.2rem 0;
+    padding: 1.2rem;
     margin-bottom: 3.8rem;
 }
 
-.navbar-brand {
-    /* padding: 40px; */
-    min-height: 3.25rem;
+.navbar-item {
+    position: relative;
+    left: 50%;
+    padding-top: 4%;
 }
 
 .brand-ico {
@@ -412,3 +413,65 @@ footer .intro-body {
         font-size: 2.2em;
     }
 }
+
+
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+ /* start of phone styles */
+@media screen and (max-width: 485px){
+   
+    h1, .intro-title {
+        font-size: 1.5em;
+    }
+
+    .subtitle, .intro-body, .skill-body, .education p {
+        font-size: 1.0em;
+    }
+
+    .hero-foot {
+        font-size: 2em;
+    }
+    
+.end img {
+    width: 7.33%;
+}
+}
+
+/* Landscape mode */
+
+@media  (max-width: 991px) and (orientation: landscape ) {
+    h1, .intro-title {
+        font-size: 1.5em;
+    }
+
+    .subtitle, .intro-body, .skill-body, .education p {
+        font-size: 1.0em;
+    }
+
+    .hero-foot {
+        font-size: 2em;
+    }
+    
+    .end img {
+        width: 7.33%;
+    }
+
+    .tech {
+        width: 50vw; 
+        margin: 2% auto;
+
+    }
+}
+
+ /* end of phone styles */
