@@ -1,41 +1,40 @@
 {
     "name": "DevHoot",
-    "short_name": "DH",
     "author": "Imran Khan",
     "icons": [
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "48x48"
         }, 
   
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "72x72"
         }, 
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "96x96"
         }, 
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "144x144"
         }, 
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "192x192"
         }, 
         {
           "src": "/images/myAvatar.svg",
-          "type": "image/png",
+          "type": "image/svg",
           "sizes": "512x512"
         } 
         ],
-    "start_url": "/",
+    "start_url": "/?utm_source=homescreen",
     "scope": "/",
     "display": "standalone",
     "background_color": "#fff",
