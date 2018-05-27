@@ -354,7 +354,7 @@ footer .intro-body {
 
 
 @media(min-width:768px) and (max-width:1200px) {
-
+    
     .tab1{
         min-width: 70% !important;
     }
@@ -431,7 +431,11 @@ footer .intro-body {
 
  /* start of phone styles */
 @media screen and (max-width: 485px){
-   
+    
+   * {
+    font-family: 'Kanit', sans-serif;
+   }
+
     h1, .intro-title {
         font-size: 1.5em;
     }
