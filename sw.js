@@ -67,8 +67,8 @@ self.addEventListener('fetch', function(event) {
 //  You can add a no-CORS option to the Request to overcome this, although this will cause an 'opaque' response,
 //   which means you won't be able to tell if the response was successful or not.
 
-  cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
-    return new Request(urlToPrefetch, { mode: 'no-cors' });
-  })).then(function() {
-    console.log('All resources have been fetched and cached.');
-  });
+//   cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
+//     return new Request(urlToPrefetch, { mode: 'no-cors' });
+//   })).then(function() {
+//     console.log('All resources have been fetched and cached.');
+//   });
