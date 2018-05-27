@@ -10,11 +10,6 @@ var urlsToCache = [
 ];
 
 
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker
-          .register('/sw.js')
-          .then(function() { console.log("Service Worker Registered"); });
-
 // Installing a sevice worker and defining files to be cached. 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -26,7 +21,7 @@ self.addEventListener('install', function(event) {
       })
   );
 });
-}
+
 
 // Updating the service worker.
 self.addEventListener('fetch', function(event) {
