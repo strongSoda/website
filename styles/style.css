@@ -489,7 +489,7 @@ footer .intro-body {
 
 
 /* start of phone styles */
-@media screen and (max-width: 485px){
+@media screen and (max-width: 485px) and (orientation: portrait) {
     
    * {
     font-family: 'Kanit', sans-serif;
@@ -499,17 +499,29 @@ footer .intro-body {
         font-size: 1.5em;
     }
 
-    .subtitle, .intro-body, .skill-body, .education p {
+    .subtitle, .intro-body, .education p {
         font-size: 1.0em;
+    }
+    
+    .skill-body { 
+        font-size: 0.8em !important;
     }
 
     .hero-foot {
         font-size: 2em;
     }
+
+    .tab1 {
+        width: 65%;
+    }
     
 .end img {
     width: 7.33%;
-}
+   }
+
+   .tabs p, .tabs li {
+    font-size: 0.9em;
+   }
 }
 
 /* Landscape mode */
