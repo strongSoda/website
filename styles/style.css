@@ -436,10 +436,18 @@ footer .intro-body {
             font-size: 1.9em;
         }
     
-        .subtitle, .intro-body, .skill-body, .education p {
+        .subtitle, .intro-body, .education p {
             font-size: 1.4em;
         }
-    
+        
+        .skill-body{
+            font-size: 1.2em;
+        }
+        
+        .tab1 {
+            width: 65%;
+        }
+
         .hero-foot {
             font-size: 2em;
         }
@@ -504,7 +512,7 @@ footer .intro-body {
     }
     
     .skill-body { 
-        font-size: 0.8em !important;
+        font-size: 0.9em !important;
     }
 
     .hero-foot {
@@ -512,7 +520,7 @@ footer .intro-body {
     }
 
     .tab1 {
-        width: 65%;
+        width: 75%;
     }
     
 .end img {
