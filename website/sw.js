@@ -63,6 +63,24 @@ self.addEventListener('fetch', function(event) {
         })
       );
   });
+  
+  // const expectedCaches = ['static-v2'];
+
+  // self.addEventListener('activate', event => {
+  //   // delete any caches that aren't in expectedCaches
+  //   // which will get rid of static-v1
+  //   event.waitUntil(
+  //     caches.keys().then(keys => Promise.all(
+  //       keys.map(key => {
+  //         if (!expectedCaches.includes(key)) {
+  //           return caches.delete(key);
+  //         }
+  //       })
+  //     )).then(() => {
+  //       console.log('V2 now ready to handle fetches!');
+  //     })
+  //   );
+  // });
 
 //  By default, fetching a resource from a third party URL will fail if it doesn't support CORS.
 //  You can add a no-CORS option to the Request to overcome this, although this will cause an 'opaque' response,
